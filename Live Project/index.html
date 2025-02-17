@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurvadic Clinic</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="styleSheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2>Ayurvadic Clinic</h2>
+        <i class="fa-solid fa-bars"></i>
+        <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About Us</a>
+            <a href="#Products">Produts</a>
+            <a href="#Services">Our Services</a>
+            <a href="#Contact">Contact Us</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light fs-5" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="home" id="Home">
+        <div class="home-bg-part-1">
+            
+        </div>
+        <div class="home-bg-part-2">
+        
+        </div>
+        <div class="title">
+            <h1>Healing Naturally, Living Fully</h1>
+        </div>
+    </div>
+
+    <div class="about" id="About">
+        <h1>About Us</h1>
+        <div class="about-container">
+            <div class="about-section-1">
+                <div class="about-image">
+    
+                </div>
+            </div>
+            <div class="about-section-2">
+                <div class="accordion rounded" id="aboutUsAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Our Vision and Mission
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show fs-5" aria-labelledby="headingOne" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Our vision is to make Ayurvedic wellness accessible to all. Our mission is to promote a natural and holistic approach to health, empowering individuals to live balanced and healthy lives.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is Ayurveda?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse fs-5" aria-labelledby="headingTwo" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Ayurveda is a 5,000-year-old system of natural healing that has its origins in the Vedic culture of India. It emphasizes balance in bodily systems through diet, herbal treatment, and yogic breathing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why Choose Ayurveda?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse fs-5" aria-labelledby="headingThree" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Ayurveda offers a holistic approach to health that goes beyond treating symptoms. It focuses on finding the root cause of illness and restoring balance in the body through natural and personalized treatments.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                The Ayurvedic Approach
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse fs-5" aria-labelledby="headingFour" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Ayurveda views health as a dynamic balance between the mind, body, and environment. By understanding your unique dosha, we tailor treatments that bring harmony and vitality to your life.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How Does an Ayurvedic Consultation Work?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse fs-5" aria-labelledby="headingFive" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                During your first Ayurvedic consultation, our practitioners will assess your dosha, discuss your health concerns, and develop a personalized treatment plan that may include diet, herbal remedies, and lifestyle changes.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Patient Care Philosophy
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse fs-5" aria-labelledby="headingSix" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                We believe in treating our patients with the utmost care and compassion. Our personalized treatment plans are designed to address your specific needs, fostering a partnership in your journey to wellness.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                The Benefits of Panchakarma
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse fs-5" aria-labelledby="headingSeven" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Panchakarma is a deep cleansing process that detoxifies the body, balances the doshas, and rejuvenates the system. It's a cornerstone of Ayurvedic treatment for restoring health and vitality.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Sustainability and Ayurveda
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse fs-5" aria-labelledby="headingEight" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                Ayurveda teaches us to live in harmony with nature. Our clinic is committed to sustainable practices, from using organic herbs to minimizing our environmental footprint.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Ayurvedic Diet and Nutrition
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse fs-5" aria-labelledby="headingNine" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                In Ayurveda, diet is a critical component of health. Our dietary consultations help you understand which foods are best suited to your dosha, promoting balance and vitality.
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Our Commitment to Quality
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse fs-5" aria-labelledby="headingTen" data-bs-parent="#aboutUsAccordion">
+                            <div class="accordion-body">
+                                We are committed to providing the highest quality Ayurvedic care. From sourcing the purest herbs to employing experienced practitioners, our focus is on excellence in every aspect of your treatment.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="head">
+        <h1>Our Products</h1>
+    </div>
+    <div class="container-cards">
+        <div class="cards">
+            <div class="circle">
+                
+                <i class="fa-brands fa-canadian-maple-leaf fa-7x"></i>
+            </div>
+            <div class="content">
+                <h2>Ashwagandha</h2>
+                <p>Ashwagandha (Withania somnifera) is a small woody plant native to India and North Africa. Its root and berries are used to produce a very popular Ayurvedic remedy.It’s considered an adaptogen, which means that it is effective. </p>
+                
+            </div>
+        </div>
+        <div class="cards">
+            <div class="circle">
+                
+                <i class="fa-sharp fa-solid fa-house-medical fa-7x"></i>
+                
+            </div>
+            <div class="content">
+                <h2>Boswellia</h2>
+                <p>Boswellia, also known as Indian frankincense or olibanum, is made from the resin of the Boswellia serrata tree. It’s known for its easily recognizable spicy, woody aroma.
+
+                    Research suggests that it may be particularly ..</p>
+        
+                
+            </div>
+        </div>
+        <div class="cards">
+            <div class="circle">
+                
+                <i class="fa-brands fa-pagelines fa-7x"></i>
+            </div>
+            <div class="content">
+                <h2>Turmeric</h2>
+                <p>Turmeric, the spice that gives curry its characteristic yellow color, is another popular Ayurvedic remedy.
+
+                    Curcumin, its main active compound, has powerful antioxidant and anti-inflammatory properties. Test-tube research shows benifts.</p>               
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-service">
+        <div class="title">
+            <h2>Bringing Ayurveda To Every Home</h2>
+        </div>
+        <div class="info1">
+            <div class="card">
+                <i class="fa-solid fa-hospital fa-2x"></i>
+                <h1 id="counter">100+</h1>
+                <p class="text">Our Products</p>
+            </div>
+             <div class="card">
+                <i class="fa-sharp fa-solid fa-notes-medical fa-2x"></i>
+               <h1 class="num" data-count="200">35+</h1>
+                <p class="text"> Our Store</p>
+            </div>
+            
+        </div>
+        <div class="info2">
+            <div class="card">
+               <img src="assets/ayurveda-root.png"  width="550px" height="550px">
+            </div>
+        </div>
+        <div class="info1">
+            <div class="card">
+                <i class="fa-solid fa-shop fa-2x"></i>
+                <h1 class="num" data-num="300">499+</h1>
+                <p class="text">Plus Patients</p>
+            </div>
+             <div class="card">
+                <i class="fa-duotone fa-solid fa-wind fa-2x"></i>
+                <h1 class="num" data-num="100">755+</h1>
+                <p class="text">Employee</p>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="container-section" id="task">
+        <h1> Ayurveda is the most sacred science of life, beneficial to humans both in this .</h1>
+        <button>Learn More About Ayurveda</button>
+    </div>
+    <div class="footer">
+        <div class="element">
+            <h2>About us</h2>
+        <p>Ayurveda is based on the idea that each person has certain life forces (doshas) and everything in the universe is connected. An imbalance in 1 area can affect another.  </p>
+        </div>
+        <div class="element">
+            <h2>Important Link</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="element">
+            <h2>company details</h2>
+            <p>JM road Pune</p>
+            <p>+91 1234567890</p>
+            <p>info@123gmail.com</p>
+        </div>
+        <div class="element">
+            <h2>Get Our Updates</h2>
+            <div class="input-field">
+                <input type="email" placeholder="enter your email address">
+                <input type="password" placeholder="enter your Password">
+                <button>get update</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
